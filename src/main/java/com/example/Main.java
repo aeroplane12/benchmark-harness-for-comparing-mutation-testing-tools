@@ -11,13 +11,13 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Willkommen zum Mutation Testing Framework!");
 
-        // Benutzeroptionen anzeigen
+        // Benutzeroptionen anzeigen die verfügbar sind
         System.out.println("Bitte wählen Sie ein Tool aus:");
         System.out.println("1: Pitest");
         System.out.println("2: Jumble");
         System.out.println("3: LittleDarwin");
 
-        // Eingabe des Benutzers lesen
+        // Eingabe des Benutzers lesen und auswerten
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
 
