@@ -35,7 +35,7 @@ public class JumbleFacade implements MutationTestingTool {
             int exitCode = process.waitFor();
 
             if (exitCode == 0) {
-                System.out.println(" Jumble erfolgreich ausgeführt!");
+                System.out.println("Jumble erfolgreich ausgeführt!");
                 // Ergebnisse hier weiterverarbeiten, falls nötig
             } else {
                 System.out.println("Fehler bei der Ausführung von Jumble. Exit Code: " + exitCode);
