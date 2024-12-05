@@ -13,7 +13,7 @@ public class JumbleFacade implements MutationTestingTool {
             ProcessBuilder processBuilder = new ProcessBuilder(
                     "java",
                     "-cp", // Klassenpfad angeben
-                    "libs/jumble_binary_1.3.0.jar:target/classes", // Jumble-JAR und kompilierten Code einbinden
+                    "libs/jumble_binary_1.3.0.jar;target/classes", // Jumble-JAR und kompilierten Code einbinden
                     "com.reeltwo.jumble.Jumble", // Hauptklasse von Jumble
                     "com.example.Main" // Die zu testende Klasse
             );
