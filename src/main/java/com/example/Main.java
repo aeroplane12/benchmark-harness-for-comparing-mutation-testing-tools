@@ -41,7 +41,7 @@ public class Main {
         }
 
         if (tool != null) {
-            tool.execute("src/main/java", "target/pit-reports");
+            tool.execute("C:\\Users\\Keita\\benchmark-harness-for-comparing-mutation-testing-tools\\src\\main\\java", "C:\\Users\\Keita\\benchmark-harness-for-comparing-mutation-testing-tools\\target\\pit-reports");
         }
 
 

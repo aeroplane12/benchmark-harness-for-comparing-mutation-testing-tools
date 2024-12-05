@@ -17,7 +17,8 @@ public class PitestFacade implements MutationTestingTool{
         System.out.println("Pitest wird gestartet...");
         try {
             ProcessBuilder processBuilder = new ProcessBuilder(
-                    "mvn", "org.pitest:pitest-maven:mutationCoverage",
+                    "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3\\plugins\\maven\\lib\\maven3\\bin\\mvn.cmd",
+                    "org.pitest:pitest-maven:mutationCoverage",
                     "-DsourceDirs=" + codeDir,
                     "-DreportDir=" + reportDir
             );
@@ -99,7 +100,8 @@ public class PitestFacade implements MutationTestingTool{
         try {
             // Maven-Befehl für Pitest ausführen
             ProcessBuilder processBuilder = new ProcessBuilder(
-                    "mvn", "org.pitest:pitest-maven:mutationCoverage",
+                    "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3\\plugins\\maven\\lib\\maven3\\bin\\mvn.cmd",
+                    "org.pitest:pitest-maven:mutationCoverage",
                     "-DsourceDirs=" + codeDir,
                     "-DreportDir=" + reportDir
             );
